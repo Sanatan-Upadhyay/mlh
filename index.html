@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UniBooks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="gitcss.css">
+</head>
+<body>
+	<div class=".cont1">
+
+	<div class="cont1 head1"><h1 id="lef">UniBooks</h1>
+		<a href="#" class="log1">Login</a>
+		<a href="#" class="log1">SignUp</a>
+	</div>
+
+	<div class="cont1 nav1">
+		<a href="#" class="link1">Home</a>
+		<a href="#" class="link1">Sell on Unibooks</a>
+		<a href="#" class="link1">Blogs</a>
+		<a href="#" class="link1">What new's</a>
+		<a href="#" class="link1">About Us</a>
+	</div>
+
+	<div class="cont1 head2"><img src="images\1.jpg" class="img1"></div>
+
+	<div class=" cont1 form1">
+	<form>
+    <input list="Colleges" class="in1" placeholder="College Names" onfocusout="myfunc()">
+    <datalist id="Colleges">
+    	<option value="Lovely Professionl University"></option>
+    	<option value="VIT University"></option>
+    	<option value="Anna University"></option>
+    	<option value="Amity University"></option>
+    	<option value="SRM University"></option>
+    	<option value="Indian Institute of Technology Bombay"></option>
+    	<option value="Manipal University"></option>
+    	<option value="Indian Institute of Technology Roorkee"></option>
+    	<option value="Birla Institute of Technology and Science"></option>
+    	<option value="Jawaharlal Nehru University"></option>
+    	<option value="Indian Institute of Technology Delhi"></option>
+    </datalist>
+    <br>
+    <script type="text/javascript">
+    	function myfunc() {
+    		document.getElementById("dis1").style.display="block";
+    	}
+    </script>
+	</form>
+	</div>
+
+	<div class="cont1 form1" id="dis1" onfocusout="myfunc1()">
+		<form>
+			<input type="text" name="name1" class="in1" placeholder="Books name" >
+		</form>
+		</div>
+		<script type="text/javascript">
+    	function myfunc1() {
+    		document.getElementById("dis2").style.display="block";
+    	}
+    </script>
+
+	<div class="cont1 tex" style="display:none" id="dis2">
+  <h2>Books found</h2>
+
+    <div class="cont1">
+      <img src="images\2.png" alt="Avatar" style="width:20%">
+      <h3>Akask</h3>
+
+      <div class="cont1">
+        <button >Message</button>
+        <button >Call him</button>
+      </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
